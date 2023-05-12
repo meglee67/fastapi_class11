@@ -11,8 +11,9 @@ example of a fastAPI service deployed using VERCEL; part of the final project
 - it will ask you to login and you need to provide your username and a special key
 
 - if you don't want to have to login over and over again, you can do; nano ~/ .git-credentials
-- type this into the shell; https://meglee67:theuniquetokenexample
+- type this into the shell; https://meglee67:theuniquetokenexample@github.com
 - then ctrl x to get out
 - then git config --global credential.helper store
+- you may need to restart the terminal
 
 - to auto create a requirments.txt you can do pip freeze > requirements.txt but that lists down a ton of stuff; you only really need the fastapi, uvicorn and pandas
