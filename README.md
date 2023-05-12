@@ -8,3 +8,4 @@ example of a fastAPI service deployed using VERCEL; part of the final project
 - first you need to let github know you want to add changes so you do; git add .
 - then you provide a commit message to let other people know what you changed; git commit -m 'update message'
 - then you need to push it to github; git push
+- it will ask you to login and you need to provide your username and a special key
