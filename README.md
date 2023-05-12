@@ -9,3 +9,5 @@ example of a fastAPI service deployed using VERCEL; part of the final project
 - then you provide a commit message to let other people know what you changed; git commit -m 'update message'
 - then you need to push it to github; git push
 - it will ask you to login and you need to provide your username and a special key
+
+- to auto create a requirments.txt you can do pip freeze > requirements.txt but that lists down a ton of stuff; you only really need the fastapi, uvicorn and pandas
