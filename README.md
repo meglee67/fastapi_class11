@@ -18,4 +18,4 @@ example of a fastAPI service deployed using VERCEL; part of the final project
 - then git config --global credential.helper store
 - you may need to restart the terminal
 
-- to auto create a requirments.txt you can do pip freeze > requirements.txt but that lists down a ton of stuff; you only really need the fastapi, uvicorn and pandas
+- to auto create a requirments.txt you can do pip freeze > requirements.txt but that lists down a ton of stuff that will clog up vercel deployment; you only really need the fastapi, uvicorn and pandas
